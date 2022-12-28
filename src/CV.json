@@ -1,0 +1,66 @@
+{
+  "personal": {
+    "name": "Jonathan",
+    "lastName": "Torres Maldonado",
+    "city": "Valdemoro",
+    "email": "jonathan.torresmald@gmail.com",
+    "birthDate": "16/02/1989",
+    "phone": "(+12) 767333841 NO PONGAIS EL VUESTRO POR FAVOR",
+    "image": "https://res.cloudinary.com/dpyvlsksj/image/upload/v1671486615/WhatsApp_Image_2022-12-19_at_22.49.24_s7eoxt.jpg",
+    "gitHub": "https://github.com/torresmald",
+    "aboutMe": [
+      {
+        "info": "Gran aficionado a los juegos de mesa."
+      },
+      {
+        "info": "En proceso de convertirme en mejor jugador de pádel"
+      }
+    ]
+  },
+  "education": [
+    {
+      "name": "Técnico Superior en Sistemas de Telecomunicación e Informáticos",
+      "date": "2012",
+      "where": "Mostoles (Madrid)",
+      "subjects": ["Redes Telemáticas", "Sistemas Informáticos y Redes Locales", "Sistemas de Radiocomunicaciones", "Sistemas de Producción Audiovisual", "Inglés Técnico"]
+    },
+    {
+      "name": "Bachillerato Tecnológico",
+      "date": "2008",
+      "where": "Illescas (Toledo)"
+    }
+  ],
+  "experience": [
+    {
+      "name": "Técnico Informático de Sistemas",
+      "date": "05/09/2014-22/09/2022",
+      "where": "Pinto",
+      "description": "Soporte técnico, mantenimiento de redes, gestion de entornos virtualizados Hyper-V, gestiones de Hosting. "
+    },
+    {
+      "name": "Ayudante Administrador TI",
+      "date": "20/03/2014-20/06/2015",
+      "where": "Berlin",
+      "description": "Administracion de redes, manejo y configuracion de Windows Server."
+    }
+  ],
+  "languages": {
+    "language": "English",
+    "level": "B1"
+  },
+  "habilities": [
+    "Buenas técnicas organizativas",
+    "Liderazgo",
+    "Autonomía",
+    "Responsabilidad",
+    "Capacidad de resolver incidencias",
+    "Capacidad de tomar decisiones"
+  ],
+  "volunteer": [
+    {
+      "name": "Asociación juvenil Revolución Babuina",
+      "where": "Illescas",
+      "description": "Asociacion local que proporciona entretenimiento lúdicos a los jovenes de la localidad"
+    }
+  ]
+}
