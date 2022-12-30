@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 import '../Option/Option.scss';
 function Option() {
     return (
-        <div>
+        <div className="buttons">
             <Link to={'/education'}>
-                <button>Educación</button>
+                <button className="button">Educación</button>
             </Link>
             <Link to={'/experience'}>
-                <button>Experiencia</button>
+                <button className="button">Experiencia</button>
             </Link>
             <Link to={'/more'}>
-                <button>Otros Datos</button>
+                <button className="button">Otros Datos</button>
             </Link>
 
         </div>

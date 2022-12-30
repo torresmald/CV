@@ -6,14 +6,13 @@
     "email": "jonathan.torresmald@gmail.com",
     "birthDate": "16/02/1989",
     "phone": "(+12) 767333841 NO PONGAIS EL VUESTRO POR FAVOR",
-    "image": "https://res.cloudinary.com/dpyvlsksj/image/upload/v1671486615/WhatsApp_Image_2022-12-19_at_22.49.24_s7eoxt.jpg",
     "gitHub": "https://github.com/torresmald",
     "aboutMe": [
       {
         "info": "Gran aficionado a los juegos de mesa."
       },
       {
-        "info": "En proceso de convertirme en mejor jugador de pádel"
+        "info": "En proceso de convertirme en mejor desarrollador Web"
       }
     ]
   },
@@ -27,7 +26,8 @@
     {
       "name": "Bachillerato Tecnológico",
       "date": "2008",
-      "where": "Illescas (Toledo)"
+      "where": "Illescas (Toledo)",
+      "subjects": []
     }
   ],
   "experience": [
@@ -62,5 +62,6 @@
       "where": "Illescas",
       "description": "Asociacion local que proporciona entretenimiento lúdicos a los jovenes de la localidad"
     }
-  ]
+  ],
+  "image": "https://res.cloudinary.com/dpyvlsksj/image/upload/v1672355842/front-end-developer_gof6cx.png"
 }

@@ -1,22 +1,25 @@
 import React from "react";
 import './Education.scss';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Education({ data }) {
     return (
-        <div>
+        <div className="education">
             {data.education.map((item, index) => {
                 return (
-                    <div key={index} className='card'>
-                        <p>{item.name}</p>
-                        <p>{item.date}</p>
-                        <p>{item.where}</p>
-                        <p>{item.subjects}</p>
-                        
+                    <div key={index} className='education__card'>
+                        <h3>{item.name}</h3>
+                        <h4>Año: {item.date}</h4>
+                        <p>Localidad: {item.where}</p>
+                        <ul>
+                            {item.subjects.map((subject, index) => {
+                                return <li key={index}>{subject}</li>
+                            })}
+                        </ul>
                     </div>
                 )
             })}
-            <p><Link to="/" >HOME</Link></p>
+            <p className="buttonHome"><Link to="/" >HOME</Link></p>
         </div>
     )
 }

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function More({ data }) {
     const { habilities, languages, volunteer, personal } = data;
     return (
-        <div>
-            <div className="habilites">
+        <div className="more">
+            <div className="more__habilites">
                 {habilities.map((item, index) => {
                     return (
                         <div key={index}>
@@ -15,14 +15,15 @@ function More({ data }) {
                     )
                 })}
             </div>
-            <div className="languages">
-                {languages.language}
-                {languages.level}
+            <div className="more__languages">
+                <p>{`Idiomas: ${languages.language}`}</p>
+                <p>{`Nivel: ${languages.level}`}</p>
             </div>
-            <div className="volunteer">
+            <div className="more__volunteer">
                 {volunteer.map((item, index) => {
                     return (
                         <div key={index}>
+                            <h3>Voluntariado</h3>
                             <p>{item.name}</p>
                             <p>{item.description}</p>
                             <p>{item.where}</p>
@@ -30,12 +31,12 @@ function More({ data }) {
                     )
                 })}
             </div>
-            <div className="others">
+            <div className="more__others">
                 {personal.aboutMe.map((item, index) => {
                     return <p key={index}>{item.info}</p>
                 })}
             </div>
-            <p><Link to="/" >HOME</Link></p>
+            <p className="buttonHome"><Link to="/" >HOME</Link></p>
         </div>
     )
 }
